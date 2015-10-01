@@ -137,11 +137,10 @@ body {
 }
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
     text-shadow:none;
-	font-weight:bold;
 }
 .navbar-right {
     float: left !important;
-    padding-top: 0.5%;
+    padding-top: 4.5%;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: black;
