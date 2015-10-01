@@ -137,7 +137,8 @@ Image credits: unsplash.com
 	font-weight:bold;
 }
 .navbar-right {
-    float:left !important;
+    float: left !important;
+    padding-top: 0.5%;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: black;
@@ -172,9 +173,10 @@ footer {
 	background-color: #6F625A;
 	float:left;
 }
-#slink{
- float:left; 
- padding:1.5%;
+#slink {
+    float:left;
+    padding-left:1%;
+    padding-top:1.4%;
 }
 #footerlogo{
 background-color:#6F625A;
@@ -183,10 +185,20 @@ height:100%;
 width:40%;
 }
 #footerlogo img {
-    width: 12%;
-    padding-top: 4%;
-    padding-right: 2%;
-}/********************************/
+    width:12%;
+    padding-top:4%;
+    padding-right:2%;
+}
+#riba
+{
+    width:20%;
+    padding-top:4%;
+    padding-right:2%;
+}
+
+
+
+/********************************/
 /*          Media Queries       */
 /********************************/
 @media screen and (min-width: 980px){
