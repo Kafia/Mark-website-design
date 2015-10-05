@@ -140,8 +140,7 @@ body {
 }
 .navbar-right {
     float: left !important;
-    padding-top: 4.5%;
-}
+ }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: black;
     background-color: transparent;
@@ -162,24 +161,20 @@ img {
     border-width: 0px 0px 0px;
 }
 .container-fluid {
-    padding-right: 15px;
+    padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
 }
 footer {
-    position:fixed;
+    position:relative;
     height:10%;
     bottom:0px;
     width: 100%;
 	background-color: #6F625A;
 	float:left;
 }
-#slink {
-    float:left;
-    padding-left:1%;
-    padding-top:1.4%;
-}
+
 #footerlogo{
 background-color:#6F625A;
 float:right;
@@ -197,8 +192,21 @@ width:40%;
     padding-top:4%;
     padding-right:2%;
 }
+#slink {
+    float:left;
+    padding-left:1%;
+    padding-top:1.4%;
+}
+navbar navbar-inverse navbar-fixed-top{
+
+position:relative;
+
+}
+#slider img{
+height:5%;
 
 
+}
 
 /********************************/
 /*          Media Queries       */
